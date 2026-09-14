@@ -15,9 +15,8 @@
     "run_worker_first": ["/flow/*"]
   },
   "observability": {"enabled": true},
-  // When v2 ships at the apex, change these to v1.topshotexplorer.com only.
+  // v2 holds the apex and www; this is the archived original.
   "routes": [
-    { "pattern": "topshotexplorer.com", "custom_domain": true },
-    { "pattern": "www.topshotexplorer.com", "custom_domain": true }
+    { "pattern": "v1.topshotexplorer.com", "custom_domain": true }
   ]
 }
